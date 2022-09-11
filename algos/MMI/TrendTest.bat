@@ -1,0 +1,9 @@
+Zorro -train TrendALMA
+Zorro -train TrendDecycle
+Zorro -train TrendEMA
+Zorro -train TrendHMA
+Zorro -train TrendLinearReg
+Zorro -train TrendLowPass
+Zorro -train TrendSMA
+Zorro -train TrendSmooth
+Zorro -train TrendZMA

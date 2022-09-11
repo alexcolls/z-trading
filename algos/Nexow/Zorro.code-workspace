@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "C:\\X-Projects"
+		},
+		{
+			"path": "C:\\Zorro_220"
+		}
+	],
+	"settings": {
+		"totvsLanguageServer.welcomePage": false,
+		"totvsLanguageServer.askEncodingChange": true
+	}
+}

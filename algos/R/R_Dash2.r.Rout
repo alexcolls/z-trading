@@ -1,0 +1,72 @@
+
+R version 3.5.2 (2018-12-20) -- "Eggshell Igloo"
+Copyright (C) 2018 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> 
+> 
+> 
+> MyFunc <- function(){
++     library(plotly)
++     library(Quandl)
++     Quandl.api_key('VUsfvNfybt3vg2KnMTvu')
++     USAUNR <- Quandl('SGE/AUSUNR', start_date='1950-01-01', end_date='2020-01-01')
++     USAUNR
++     p <- plot_ly(USAUNR, x = ~Date, y = ~Value, type= "bar", theme="Plotly Dark")
++     p
++ }
+> 
+> MyFunc()
+Loading required package: ggplot2
+
+Attaching package: 'plotly'
+
+The following object is masked from 'package:ggplot2':
+
+    last_plot
+
+The following object is masked from 'package:stats':
+
+    filter
+
+The following object is masked from 'package:graphics':
+
+    layout
+
+Loading required package: xts
+Loading required package: zoo
+
+Attaching package: 'zoo'
+
+The following objects are masked from 'package:base':
+
+    as.Date, as.Date.numeric
+
+Warning messages:
+1: package 'Quandl' was built under R version 3.5.3 
+2: package 'xts' was built under R version 3.5.3 
+3: package 'zoo' was built under R version 3.5.3 
+4: 'bar' objects don't have these attributes: 'theme'
+Valid attributes include:
+'type', 'visible', 'showlegend', 'legendgroup', 'opacity', 'name', 'uid', 'ids', 'customdata', 'meta', 'selectedpoints', 'hoverinfo', 'hoverlabel', 'stream', 'transforms', 'uirevision', 'x', 'x0', 'dx', 'y', 'y0', 'dy', 'text', 'hovertext', 'hovertemplate', 'textposition', 'insidetextanchor', 'textangle', 'textfont', 'insidetextfont', 'outsidetextfont', 'constraintext', 'cliponaxis', 'orientation', 'base', 'offset', 'width', 'marker', 'offsetgroup', 'alignmentgroup', 'selected', 'unselected', 'r', 't', '_deprecated', 'error_x', 'error_y', 'xcalendar', 'ycalendar', 'xaxis', 'yaxis', 'idssrc', 'customdatasrc', 'metasrc', 'hoverinfosrc', 'xsrc', 'ysrc', 'textsrc', 'hovertextsrc', 'hovertemplatesrc', 'textpositionsrc', 'basesrc', 'offsetsrc', 'widthsrc', 'rsrc', 'tsrc', 'key', 'set', 'frame', 'transforms', '_isNestedKey', '_isSimpleKey', '_isGraticule', '_bbox'
+ 
+> 
+> proc.time()
+   user  system elapsed 
+   0.67    0.28    1.76 

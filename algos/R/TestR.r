@@ -1,0 +1,12 @@
+x    <- rnorm(1000)
+y    <- (x - 2) + rnorm(1000)
+outR <- lm(y ~ x)
+summary(outR) 
+plot(outR)
+
+set.seed(100)
+X <- rnorm(1000000, 2.33, 0.5)
+mu <- mean(X)
+sd <- sd(X)
+hist(X, col = "blue", breaks = 100)
+abline(v = mu, col = "red", lwd = 3) 

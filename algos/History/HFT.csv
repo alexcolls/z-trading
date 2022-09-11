@@ -1,0 +1,3 @@
+Name,Price,Spread,RollLong,RollShort,PIP,PIPCost,MarginCost,Leverage,LotAmount,Commission,Symbol
+ES,2500,0.25,0,0,0.01,0.01,0,1,1,0,#ES
+SPY,250,0.02,0,0,0.01,0.01,0,1,1,0,#SPY
