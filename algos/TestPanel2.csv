@@ -1,0 +1,25 @@
+Current GuV,,@,1124567,#,Max loss %,@,#0.1,#0.5,#50
+Current margin,,@,2356,#,First trade size,@,#0.01,#0.05,#0.1
+Risk,,@,40,#,First step size,@,#50,#100,#200
+Series,@,!Reset,28,#,Trade growth factor,@,#1.1,#1.1,#1.1
+Quotes,,@,0,#,Min profit distance,@,#5,#20,#100
+Average spread,@,!5m,0,#,Max profit distance,@,#10,#30,#400
+Current slippage,,@,0,#,Trailing %,@,#10,#15,#20
+Min distance %,,@,#10,#,#,#,#,#,#
+Ceiling,,@,#19,#,!Apply,,,,@
+Floor,,@,#11,#,!Start,,,,@
+Max slippage allowed,,@,#100,#,!Cash out,,,,@
+Max spread allowed,,@,#100,#,!Close all,,,,@
+Max lots/trade,,@,#5,#,!Rebalance series,,,,@
+Ticker,Mode,Level 1,Level 2,Level 3,Level 4,Level 5,Level 6,Level 7,  
+MSFT,!Select,44.11,67.09,51,47.04,6.88,21.47,68.05,!Close
+XOM,!Select,56.13,87.77,36,73.09,45.26,44,35.94,!Close
+AMZN,!Select,82.81,82.88,60.56,25.13,77.32,89.36,96.62,!Close
+JNJ,!Select,81.09,8.44,27.32,0.47,97.68,10.89,28.01,!Close
+FB,!Select,23.27,41.72,57.62,24.04,85.76,81.15,70.66,!Close
+GE,!Step Up,84.76,48.47,96.48,81.29,26.58,56.37,33.08,!Close
+T,!Step Dn,97.81,41.35,38.57,31.11,6.47,5.05,3.63,!Close
+JPM,!Select,84.67,32.77,0.86,99.29,91.58,92.66,53.06,!Close
+PG,!Select,87.4,71.63,20.36,6.66,79.52,56.36,55.91,!Close
+GOOGL,!Select,65.66,11.27,37.84,87.13,26.54,35.77,99.05,!Close
+VZ,!Select,17.06,75.54,45.06,74.18,21.08,91.31,31.26,!Close

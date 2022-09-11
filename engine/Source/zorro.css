@@ -1,0 +1,113 @@
+body {
+	font-size: 10pt;
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	text-align: justify;
+	background-color: #FFFFFF;
+}
+
+td  { font-size: 10pt; font-family: Arial, Helvetica, Verdana, sans-serif; padding-right: 8pt }
+
+pre  { font-size: 8pt; background-color: #d3d3d3; display: block }
+pre i { color: blue }
+pre em { color: blue }
+
+h1  { font-weight: bold; font-size: 16pt; font-family: Arial, Helvetica, sans-serif;  ; background-color: #FF0000; text-align: justify}
+
+h2  {
+	color: #000000;
+	font-weight: bold;
+	font-size: 12pt;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #add8e6;
+	text-transform: none;
+	margin-bottom: 0.4em;
+	border: outset thin #000000;
+}
+
+h3  { font-style: italic; font-weight: bold; font-size: 10pt; font-family: Arial, Helvetica, sans-serif; background-color: #add8e6; margin-bottom: 0.4em }
+
+a:link {
+	font-weight: bold;
+	color: #000000;
+}
+a:hover { color: blue; font-weight: bold }
+a:visited { font-weight: bold }
+
+.Instr {
+	color: #000000; font-weight: bold; font-size: 12pt; font-family: Arial, Helvetica, sans-serif;
+	background-color: #add8e6; text-transform: lowercase; margin-bottom: 0.4em;
+	list-style-type: circle; list-style-position: outside; border: outset thin #000000;
+}
+.instSub   {
+	font-style: italic; font-weight: bold; font-family: Arial, Helvetica, sans-serif;
+	background-color: #add8e6; margin-bottom: 0.4em;
+}
+.Sources {
+	font-family: "Courier New", Courier, mono;
+	font-size: 8pt; text-transform: none;
+}
+
+.param  {
+	color: #000000;
+	font-weight: bold;
+}
+
+.unpara   { color: #000000; font-weight: bold; font-family: Arial, Verdana, Helvetica, sans-serif; text-transform: lowercase }
+
+.tast {
+	font-style: italic;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000000;
+	border-color: #666666 #666666 #000000 #000000; 
+	background-color: #CCCCCC; 
+	border-style: none; 
+	border-top-width: thin; 
+	border-right-width: thin; 
+	border-bottom-width: thin; 
+	border-left-width: thin
+}
+
+.question { color: #0000FF; }
+.edition { color: white; font-style: italic; font-weight: bold; background-color: blue}
+ul {
+	padding-left: 6pt;
+	margin-left: 6pt;
+	text-align: justify;
+	list-style-type: none;
+	list-style-image: url(remark1.gif);
+}
+.litec {
+	color: #007733;
+}
+.cscript {
+	color: #CC0033;
+}
+.button {
+	background-color: #ADD8E6;
+	text-align: right;
+	float: right;
+}
+table	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	text-align: justify;
+	vertical-align: top;
+}
+.taste {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-transform: none;
+	border: thin outset;
+	font-size: larger;
+	background-color: #CCCCCC;
+}
+td {
+	vertical-align: top;
+}
+
+img {
+    width:auto;
+    max-width:100%;
+    height:auto;
+}
