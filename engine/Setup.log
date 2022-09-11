@@ -1,0 +1,537 @@
+Setup Log of: Zorro Project
+Version: 2.2.0.2
+
+Date: 19-MAR-2020 06:15:43
+Operating System: Win8.64  6.2  9200 - x64 Workstation
+Composer Version: 11.0.0.2
+
+WinTempDir: C:\Users\aco\AppData\Local\Temp
+SourceDir:  C:\Users\aco\AppData\Local\Temp\SETUP_12755
+
+Execute at: (1) --- Setup Start
+Execute at: (22) --- Before Dialogs
+Show Setup Dialog: Welcome
+Show Setup Dialog: License Agreement
+Show Setup Dialog: Readme
+Execute at: (7) --- Before User Information
+Show Setup Dialog: User Information
+Execute at: (8) --- After User Information
+Execute at: (13) --- Before Destination
+Show Setup Dialog: Choose Destination Location
+Execute at: (14) --- After Destination
+Execute at: (15) --- Before Associate
+Show Setup Dialog: Set File Association
+Execute at: (16) --- After Associate
+Execute at: (17) --- Before Shortcuts
+Show Setup Dialog: Set Program Shortcuts
+Execute at: (18) --- After Shortcuts
+Show Setup Dialog: Confirm Setup Settings
+Create Target Directory: C:\Users\aco\OneDrive\Zorro ... TRUE
+Show Setup Dialog: Copying Files
+Execute at: (2) --- Before Copy
+Handle First UnInstall Data
+  Copy File: C:\Users\aco\OneDrive\Zorro\Zorro_setup_16862.exe ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro)
+  Copy File: C:\Users\aco\OneDrive\Zorro\api.def ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\FXCM.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Microsoft.VC80.CRT.manifest ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\zorro.chm ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Zorro.exe ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Zorro.ini ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ZorroControl.exe ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ZorroMT4.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ZorroMT5.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Zview.exe ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ackutl.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\chartdir60.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\libeay32.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\mfc71.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\mfc80u.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\msvcp71.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\msvcp80.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\msvcr120.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\msvcr71.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\msvcr80.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\mt4R.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\python36.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ssleay32.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\ZorroControl.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\click.wav ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\loss.wav ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\optimize.wav ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\trade.wav ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\trail.wav ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\win.wav ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Data)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12.fac ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_1.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_10.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_11.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_12.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_13.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_14.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_15.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_2.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_3.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_4.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_5.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_6.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_7.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_8.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z12_9.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_1.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_10.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_2.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_3.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_4.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_5.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_6.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_7.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_8.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z3_9.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_1.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_1.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_10.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_10.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_11.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_11.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_12.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_12.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_13.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_13.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_14.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_14.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_15.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_15.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_16.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_16.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_17.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_17.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_18.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_18.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_19.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_19.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_2.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_2.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_20.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_20.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_21.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_21.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_22.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_22.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_23.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_23.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_24.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_24.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_25.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_25.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_26.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_26.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_27.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_27.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_28.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_28.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_29.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_29.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_3.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_3.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_30.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_30.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_4.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_4.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_5.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_5.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_6.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_6.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_7.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_7.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_8.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_8.par ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_9.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Data\Z7_9.par ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\include)
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\candle.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\com.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\contract.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\d3d9.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\default.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\empty.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\functions.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\func_list.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\legacy.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\litec.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\opengl.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\profile.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\r.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\stdio.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\trading.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\variables.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\windows.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\include\zorro.h ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\change.log ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\config.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\contextMenu.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\doLocalConf.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\functionList.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\langs.model.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\langs.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\license.txt ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\notepad++.exe ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\readme.txt ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\SciLexer.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\session.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\shortcuts.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\stylers.model.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\stylers.xml ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\localization)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\afrikaans.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\albanian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\arabic.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\aragonese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\aranese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\azerbaijani.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\basque.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\belarusian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\bengali.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\bosnian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\brazilian_portuguese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\breton.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\bulgarian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\catalan.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\chinese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\chineseSimplified.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\corsican.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\croatian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\czech.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\danish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\dutch.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\english.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\english_customizable.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\esperanto.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\estonian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\extremaduran.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\farsi.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\finnish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\french.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\friulian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\galician.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\georgian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\german.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\greek.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\gujarati.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\hebrew.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\hindi.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\hungarian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\indonesian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\italian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\japanese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\kabyle.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\kannada.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\kazakh.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\korean.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\kyrgyz.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\latvian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\ligurian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\lithuanian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\luxembourgish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\macedonian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\malay.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\marathi.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\mongolian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\norwegian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\nynorsk.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\occitan.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\polish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\portuguese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\punjabi.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\romanian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\russian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\samogitian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\sardinian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\serbian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\serbianCyrillic.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\sinhala.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\slovak.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\slovenian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\spanish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\spanish_ar.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\swedish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\tagalog.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\tajikCyrillic.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\tamil.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\tatar.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\telugu.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\thai.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\turkish.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\ukrainian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\urdu.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\uyghur.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\uzbek.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\uzbekCyrillic.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\vietnamese.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\localization\welsh.xml ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\plugins)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\CustomizeToolbar.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\LanguageHelp.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\VisualStudioLineCopy.Unicode.dll ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\actionscript.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\c.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\cmake.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\cpp.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\cs.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\css.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\html.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\java.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\javascript.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\lisp.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\nsis.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\perl.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\php.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\python.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\rc.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\sql.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\tex.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\vb.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\vhdl.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\APIs\xml.xml ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\Config)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\Config\CustomizeToolbar.btn ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\Config\CustomizeToolbar.dat ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\Config\LanguageHelp.ini ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\plugins\Config\zorro16.bmp ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\themes)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Bespin.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Black board.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Choco.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Deep Black.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Hello Kitty.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\HotFudgeSundae.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\khaki.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Mono Industrial.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Monokai.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\MossyLawn.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Navajo.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Obsidian.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Plastic Code Wrap.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Ruby Blue.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Solarized-light.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Solarized.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\stylers.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Twilight.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Vibrant Ink.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\vim Dark Blue.xml ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\themes\Zenburn.xml ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Notepad++\updater)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Notepad++\updater\gpup.exe ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Plugin)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\AllyInvest.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\Binance.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\Bitfinex.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\Bittrex.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\Coinigy.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\FXCM.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\IB.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\IEX.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\IG.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\NxCore.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\Oanda.dll ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\ZorroMT4.dll ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Plugin\ig)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\ig\application.properties ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\ig\igplugin-0.31.jar ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Plugin\ig\logback.xml ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Source)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\AllyInvestPlugin.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\debug.htm ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\favicon.ico ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\indicators.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\jsmn.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\licenses.txt ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\mt4R-1.3.0.27.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\status.htm ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\ta_lib.zip ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\Template.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\train.htm ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\zorro.css ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Source\VC++)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\VC++\MyStrategy.cpp ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\VC++\ZorroDLL.cpp ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Source\ZorroControl)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\ZorroControl\stdafx.cpp ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\ZorroControl\stdafx.h ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\ZorroControl\ZorroContol.cpp ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Source\ZorroControl\ZorroControl.h ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\Strategy)
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Analysis.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Benchmark.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\BrokerArb.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\CalculatePi.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Chart.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Control.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\CSVtoHistory.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\CSVtoOptions.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DateCalculator.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DeepLearn.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DeepLearn.r ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DeepLearnH2O.r ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DeepLearnKeras.r ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DeepLearnMX.r ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Detrend.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Distribution.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Download.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DownloadEOD.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\DTree.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Ehlers.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Filter.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Gap.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\GapFinder.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Grid.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\History.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Impulse.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\IndicatorTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\InvestCalculator.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Keystrokes.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Luxor.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Mandelbrot.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Martingale.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\MinWinRate.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\MultiTrain.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\OpenGL.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\OptimizeTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\OptionsCalculator.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\PanelTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\PayOff.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Perceptron.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Predict.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\PriceDist.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Process.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\PythonTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\RandomPrice.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\RandomWalk.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\RecordT1.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Regime.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\RTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Sentiment.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\SpecialBars.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Spectrum.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\TestPanel2.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\TradeCosts.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\TradeOptions.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\TradeTest.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Turk2.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop1.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop2.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop3_1.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop3_2.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop4.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop4a.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop5.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop6.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop7.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Workshop8.c ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\z.ini ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z1.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z10.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z12.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z13.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z2.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z3.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z7.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z8.x ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\Strategy\Z9.x ... OK
+
+Start Copy Directory
+  (C:\Users\aco\OneDrive\Zorro\History)
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2005.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2006.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2007.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2008.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2009.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2010.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2011.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2012.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2013.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2014.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2015.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2016.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2017.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2018.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\EURUSD_2019.t6 ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AccountsExample.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsArb.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsBinance.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsBittrex.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsCFD200.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsCur.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsFix.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsFXCM.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsGP.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsIB.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsOanda.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsOandaEUR.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsSP250.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsSP30.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsZ10.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsZ8.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsZ9.csv ... OK
+  Copy File: C:\Users\aco\OneDrive\Zorro\History\AssetsZ9E.csv ... OK
+
+Execute at: (3) --- After Copy
+Registering Components --- Start
+
+Create Start/Program shortcut:
+  Zorro Engine\Zorro  (C:\Users\aco\OneDrive\Zorro\Zorro.exe) ... OK
+Create Start/Program shortcut:
+  Zorro Engine\Zorro Trading Automaton\Script Editor  (C:\Users\aco\OneDrive\Zorro\Notepad++\notepad++.exe) ... OK
+Create Start/Program shortcut:
+  Zorro Engine\Uninstall Zorro Project  (C:\Users\aco\OneDrive\Zorro\Zorro_setup_16862.exe) ... OK
+Create Desktop shortcut:
+  Zorro  (C:\Users\aco\OneDrive\Zorro\Zorro.exe) ... OK
+Create Quick Launch shortcut:
+  Zorro  (C:\Users\aco\OneDrive\Zorro\Zorro.exe) ... OK
+
+Registering Components --- End
+
+Execute at: (23) --- After Reg Components
+Execute at: (19) --- Before Complete
+Show Setup Dialog: Setup Complete
+Execute at: (20) --- After Complete
+Execute at: (4) --- Setup End
