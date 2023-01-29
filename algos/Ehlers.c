@@ -1,5 +1,5 @@
 // Strategy from "Predictive Indicators for Effective Trading Strategies"
-// by John Ehlers
+// from the great John Ehlers 
 
 #define USE_PREDICT
 
