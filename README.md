@@ -6,7 +6,7 @@ Asyncronous low-latency operations, perfect for Market Making (MM) and Market Ta
 
 More than 10 APIs built-in for trading stocks, indices, bonds, commodities, currencies and cryptocurrencies through spot contracts, swaps, futures and options.
 
-Also, it includes pre-built bridges for R and Python. From your C scripts you can pass data to R and Python engines and receive back data. Perfect for training, evaluating and using AI models for building non-linear quantitative strategies.
+Also, it includes pre-built bridges for R and Python. From your C scripts you can pass data to R and Python engines and receive back data. Perfect for training, evaluating and using AI models, like Tensorflow or PyTorch, for building non-linear quantitative strategies.
 
 Conact me for collaborations:
 https://twitter.com/fxmozart_sol
