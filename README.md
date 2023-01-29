@@ -1,6 +1,6 @@
 # z_trading
 
-A trading framework for High Frequency Trading (HTF) and multi-venue algorithmic trading. Written in C, for fast trading, development, backtestings and modeling in the same environment. Build it in the top of Zorro.
+A trading framework for High Frequency Trading (HTF) and multi-venue algorithmic trading. Written in C, for fast trading, development, backtestings and modeling in the same environment. Build-in the top of Zorro.
 
 Asyncronous low-latency operations, perfect for Market Making (MM) and Market Taking (MT).
 
