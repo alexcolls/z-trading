@@ -3,7 +3,7 @@
 <div align="center">
 
 ![Z-Trading](https://img.shields.io/badge/Z--Trading-HFT%20Framework-blue?style=for-the-badge&logo=bitcoin)
-[![C](https://img.shields.io/badge/C-Algorithms-A8B9CC?style=for-the-badge&logo=c)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C](https://img.shields.io/badge/C-Algorithms-A8B9CC?style=for-the-badge&logo=c)](<https://en.wikipedia.org/wiki/C_(programming_language)>)
 [![Python](https://img.shields.io/badge/Python-3.6+-3776AB?style=for-the-badge&logo=python)](https://www.python.org)
 [![Zorro](https://img.shields.io/badge/Zorro-Trading%20Engine-orange?style=for-the-badge)](https://zorro-project.com)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=for-the-badge)](https://opensource.org/licenses/Apache-2.0)
@@ -20,20 +20,22 @@
 
 The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **362 pre-built algorithms** and support for **25+ brokers and exchanges** (including Binance, Kraken, Interactive Brokers, OANDA, and more), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
 
-### 🔧 Trading Engine
+### 🚀 Trading Engine
 
 Powered by the **Zorro trading engine** featuring:
+
 - Ultra-low latency (~750ns in HFT mode)
-- 300+ technical indicators and time series analysis functions  
+- 300+ technical indicators and time series analysis functions
 - World's fastest optimizer (25 seconds for 12 parameters)
 - Machine learning integration (Torch, Keras, TensorFlow, MxNet)
 - Support for 25+ brokers and exchanges
 
 > 📚 **[See complete engine documentation →](docs/ENGINE.md)**
 
-### 📊 Trading Algorithms
+### 🤖 Trading Algorithms
 
 Includes **326 C strategies** and **36 Python utilities** covering:
+
 - **Trend Following**: ALMA, EMA, HMA, Laguerre, and more
 - **Mean Reversion**: Counter-trend and oscillator-based systems
 - **Machine Learning**: Neural networks and pattern recognition (Alice series)
@@ -43,7 +45,7 @@ Includes **326 C strategies** and **36 Python utilities** covering:
 - **Portfolio Management**: MVO, OptimalF, and correlation-based allocation
 - **Economic Data**: COT reports and fundamental analysis
 
-> 📊 **[Browse all strategies →](docs/ALGOS.md)**
+> 📚 **[Browse all strategies and scripts →](docs/ALGOS.md)**
 
 ## ✨ Features
 
@@ -158,23 +160,24 @@ function run()
 {
     vars Price = series(price());
     vars Trend = series(LowPass(Price, 500));
-    
+
     Stop = 4*ATR(100);
-    
+
     if(valley(Trend))
         enterLong();
     else if(peak(Trend))
         enterShort();
-    
+
     StartDate = 2020;
     EndDate = 2024;
     asset("EUR/USD");
-    
+
     set(LOGFILE);
 }
 ```
 
 **Run via Zorro GUI:**
+
 1. Open `Zorro.exe`
 2. Select your script from the dropdown
 3. Choose Trade/Test/Train mode
@@ -191,6 +194,7 @@ python algos/TraderDashboard.py
 ```
 
 The dashboard will prompt for:
+
 - OANDA API Token
 - Account ID
 - Google Sheet name
@@ -204,6 +208,7 @@ poetry run python algos/RiskManager.py
 ```
 
 This calculates:
+
 - Maximum position sizes per instrument
 - Portfolio correlation adjustments
 - Volatility-based sizing
@@ -281,7 +286,9 @@ z-trading/
 ### Key Components
 
 #### **TraderDashboard.py**
+
 Real-time trading dashboard that monitors:
+
 - Account balance and NAV
 - Open positions and P&L
 - Margin usage and available capital
@@ -289,7 +296,9 @@ Real-time trading dashboard that monitors:
 - Updates Google Sheets automatically
 
 #### **RiskManager.py**
+
 Advanced risk management system featuring:
+
 - Volatility-based position sizing
 - Correlation-adjusted exposure limits
 - Maximum position calculations per instrument
@@ -297,7 +306,9 @@ Advanced risk management system featuring:
 - Integration with Google Sheets for live updates
 
 #### **OandaLib.py**
+
 Python wrapper for OANDA API providing:
+
 - Real-time pricing for 120+ instruments
 - Historical candlestick data
 - Spread analysis
@@ -305,7 +316,9 @@ Python wrapper for OANDA API providing:
 - Google Sheets data export
 
 #### **C Trading Algorithms**
+
 Over 326 compiled C strategies including:
+
 - Trend following (Alice series)
 - Mean reversion
 - Breakout systems
@@ -316,6 +329,7 @@ Over 326 compiled C strategies including:
 ## 🌍 Supported Markets & Instruments
 
 ### Forex (120+ pairs)
+
 **Major Pairs:** EUR/USD, GBP/USD, USD/JPY, AUD/USD, NZD/USD, USD/CAD, USD/CHF
 
 **Cross Pairs:** EUR/GBP, EUR/JPY, GBP/JPY, AUD/JPY, EUR/AUD, GBP/AUD, and more
@@ -323,20 +337,24 @@ Over 326 compiled C strategies including:
 **Exotic Pairs:** USD/CNH, USD/MXN, USD/TRY, USD/ZAR, USD/THB, USD/INR, etc.
 
 ### Indices
+
 - **US:** SPX500, NAS100, US30, US2000
 - **Europe:** EU50, DE30, FR40, UK100, NL25
 - **Asia-Pacific:** JP225, HK33, CN50, AU200, IN50, SG30, TWIX
 
 ### Commodities
+
 - **Energy:** WTICO (Crude Oil), BCO (Brent), NATGAS (Natural Gas)
 - **Metals:** XAU (Gold), XAG (Silver), XPT (Platinum), XPD (Palladium), XCU (Copper)
 - **Agriculture:** CORN, WHEAT, SOYBN (Soybeans), SUGAR
 
 ### Bonds
+
 - **US Treasuries:** USB02Y, USB05Y, USB10Y, USB30Y
 - **European Bonds:** DE10YB (German Bund), UK10YB (UK Gilt)
 
 ### Precious Metals Crosses
+
 XAU/AUD, XAU/CAD, XAU/CHF, XAU/EUR, XAU/GBP, XAU/JPY, XAU/XAG, and more
 
 ## 🔧 Advanced Features
@@ -351,9 +369,9 @@ function run()
     StartDate = 20200101;  // YYYYMMDD format
     EndDate = 20241231;
     BarPeriod = 60;        // 1-hour bars
-    
+
     // Your strategy logic here
-    
+
     set(LOGFILE | PLOTNOW);
 }
 ```
@@ -365,10 +383,10 @@ function run()
 {
     NumYears = 4;
     NumWFOCycles = 10;
-    
+
     // Strategy parameters
     var Period = optimize(20, 10, 100, 10);
-    
+
     set(WFO);
 }
 ```
@@ -425,6 +443,7 @@ Access your dashboard at your configured Google Sheet URL.
 Trading financial instruments involves substantial risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Before deciding to trade, you should carefully consider your investment objectives, level of experience, and risk appetite.
 
 ### Key Risks:
+
 - 📉 **Loss of Capital**: You may lose some or all of your initial investment
 - 💸 **Leverage Risk**: Leveraged trading can magnify both gains and losses
 - 📊 **Market Risk**: Market volatility can result in rapid losses
@@ -432,6 +451,7 @@ Trading financial instruments involves substantial risk and may not be suitable 
 - 🌐 **Liquidity Risk**: Some instruments may have limited liquidity
 
 ### Legal Disclaimer:
+
 - This software is provided for **educational and research purposes only**
 - Past performance is **not indicative** of future results
 - The authors and contributors are **not liable** for any trading losses
@@ -488,6 +508,7 @@ For the full license text, see [LICENSE](LICENSE).
 ## 🙏 Acknowledgments
 
 Built with:
+
 - [Zorro Trading Platform](https://zorro-project.com) - Professional algorithmic trading software
 - [OANDA](https://www.oanda.com) - Forex and CFD trading API
 - [Python](https://www.python.org) - Data analysis and automation
