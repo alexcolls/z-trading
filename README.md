@@ -18,9 +18,32 @@
 
 **Z-Trading** is a comprehensive algorithmic trading framework designed for High Frequency Trading (HFT) and multi-venue execution. Built on top of the powerful **[Zorro Trading Platform](docs/ENGINE.md)**, it combines the speed and efficiency of compiled C algorithms with the flexibility of Python for data analysis, risk management, and visualization.
 
-The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **360 pre-built algorithms** and support for **25+ brokers and exchanges** (including Binance, Kraken, Interactive Brokers, OANDA, and more), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
+The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **362 pre-built algorithms** and support for **25+ brokers and exchanges** (including Binance, Kraken, Interactive Brokers, OANDA, and more), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
 
-> 📚 **For detailed Zorro engine capabilities, see [Engine Documentation](docs/ENGINE.md)**
+### 🔧 Trading Engine
+
+Powered by the **Zorro trading engine** featuring:
+- Ultra-low latency (~750ns in HFT mode)
+- 300+ technical indicators and time series analysis functions  
+- World's fastest optimizer (25 seconds for 12 parameters)
+- Machine learning integration (Torch, Keras, TensorFlow, MxNet)
+- Support for 25+ brokers and exchanges
+
+> 📚 **[See complete engine documentation →](docs/ENGINE.md)**
+
+### 📊 Trading Algorithms
+
+Includes **326 C strategies** and **36 Python utilities** covering:
+- **Trend Following**: ALMA, EMA, HMA, Laguerre, and more
+- **Mean Reversion**: Counter-trend and oscillator-based systems
+- **Machine Learning**: Neural networks and pattern recognition (Alice series)
+- **Currency Strength**: G12 multi-currency correlation system
+- **Market Making**: High-frequency FX market making strategies
+- **Options Trading**: Greeks calculation and volatility strategies
+- **Portfolio Management**: MVO, OptimalF, and correlation-based allocation
+- **Economic Data**: COT reports and fundamental analysis
+
+> 📊 **[Browse all strategies →](docs/ALGOS.md)**
 
 ## ✨ Features
 
