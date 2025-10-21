@@ -1,4 +1,4 @@
-# 💹 Z-Trading
+# ⚡ Z-Trading
 
 <div align="center">
 
@@ -25,7 +25,7 @@ The framework provides asynchronous low-latency operations perfect for ultra-fas
 ## ✨ Features
 
 - ⚡ **High Frequency Trading** - Ultra-low-latency C-based execution engine (~750ns latency)
-- 🎯 **Multi-Venue Support** - 25+ brokers: Interactive Brokers, Binance, Kraken, OANDA, Alpaca, FXCM, and more
+- 💹 **Multi-Venue Support** - 25+ brokers: Interactive Brokers, Binance, Kraken, OANDA, Alpaca, FXCM, and more
 - 📊 **360+ Algorithms** - Pre-built trading strategies and indicators
 - 🐍 **Python Bridge** - Seamless integration between C and Python engines
 - 🤖 **Machine Learning** - Torch, Keras, TensorFlow, MxNet integration
