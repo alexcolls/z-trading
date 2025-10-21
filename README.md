@@ -16,17 +16,19 @@
 
 ## 📖 Overview
 
-**Z-Trading** is a comprehensive algorithmic trading framework designed for High Frequency Trading (HFT) and multi-venue execution. Built on top of the powerful **Zorro Trading Platform**, it combines the speed and efficiency of compiled C algorithms with the flexibility of Python for data analysis, risk management, and visualization.
+**Z-Trading** is a comprehensive algorithmic trading framework designed for High Frequency Trading (HFT) and multi-venue execution. Built on top of the powerful **[Zorro Trading Platform](docs/ENGINE.md)**, it combines the speed and efficiency of compiled C algorithms with the flexibility of Python for data analysis, risk management, and visualization.
 
-The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **360 pre-built algorithms** and support for **10+ trading APIs**, Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
+The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **360 pre-built algorithms** and support for **25+ brokers and exchanges** (including Binance, Kraken, Interactive Brokers, OANDA, and more), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
+
+> 📚 **For detailed Zorro engine capabilities, see [Engine Documentation](docs/ENGINE.md)**
 
 ## ✨ Features
 
-- ⚡ **High Frequency Trading** - Ultra-low-latency C-based execution engine
-- 🎯 **Multi-Venue Support** - Trade across 10+ broker APIs and exchanges
+- ⚡ **High Frequency Trading** - Ultra-low-latency C-based execution engine (~750ns latency)
+- 🎯 **Multi-Venue Support** - 25+ brokers: Interactive Brokers, Binance, Kraken, OANDA, Alpaca, FXCM, and more
 - 📊 **360+ Algorithms** - Pre-built trading strategies and indicators
 - 🐍 **Python Bridge** - Seamless integration between C and Python engines
-- 🔗 **OANDA API Integration** - Professional forex and CFD trading
+- 🤖 **Machine Learning** - Torch, Keras, TensorFlow, MxNet integration
 - 📈 **Live Dashboards** - Real-time monitoring via Google Sheets
 - 🗄️ **MySQL Database** - Store and analyze historical trading data
 - 💰 **Risk Management** - Advanced position sizing and portfolio optimization
