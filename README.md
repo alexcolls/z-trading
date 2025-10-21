@@ -18,7 +18,7 @@
 
 **Z-Trading** is a comprehensive algorithmic trading framework designed for High Frequency Trading (HFT) and multi-venue execution. Built on top of the powerful **[Zorro Trading Platform](docs/ENGINE.md)**, it combines the speed and efficiency of compiled C algorithms with the flexibility of Python for data analysis, risk management, and visualization.
 
-The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **362 pre-built algorithms** and support for **25+ brokers and exchanges** (including Binance, Kraken, Interactive Brokers, OANDA, and more), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes.
+The framework provides asynchronous low-latency operations perfect for ultra-fast Market Making (MM) and Market Taking (MT) strategies. With over **361 pre-built algorithms** and support for **25+ brokers and exchanges** (including traditional markets like Interactive Brokers, OANDA, FXCM, and crypto exchanges like Binance, Bitfinex, Bittrex, Deribit, Kraken), Z-Trading enables traders to develop, backtest, and deploy robust quantitative strategies across multiple asset classes including forex, stocks, indices, commodities, bonds, cryptocurrencies, and derivatives.
 
 ### 🚀 Trading Engine
 
@@ -27,6 +27,7 @@ Powered by the **Zorro trading engine** featuring:
 - Ultra-low latency (~750ns in HFT mode)
 - 300+ technical indicators and time series analysis functions
 - World's fastest optimizer (25 seconds for 12 parameters)
+- World's fastest tick-level backtester (0.3 seconds for 10 years)
 - Machine learning integration (Torch, Keras, TensorFlow, MxNet)
 - Support for 25+ brokers and exchanges
 
@@ -34,7 +35,7 @@ Powered by the **Zorro trading engine** featuring:
 
 ### 🤖 Trading Algorithms
 
-Includes **326 C strategies** and **36 Python utilities** covering:
+Includes **326 C strategies** and **35 Python utilities** covering:
 
 - **Trend Following**: ALMA, EMA, HMA, Laguerre, and more
 - **Mean Reversion**: Counter-trend and oscillator-based systems
@@ -50,20 +51,112 @@ Includes **326 C strategies** and **36 Python utilities** covering:
 ## ✨ Features
 
 - ⚡ **High Frequency Trading** - Ultra-low-latency C-based execution engine (~750ns latency)
-- 💹 **Multi-Venue Support** - 25+ brokers: Interactive Brokers, Binance, Kraken, OANDA, Alpaca, FXCM, and more
-- 📊 **360+ Algorithms** - Pre-built trading strategies and indicators
+- 💹 **Multi-Venue Support** - 25+ brokers and exchanges including:
+  - **Traditional Markets**: Interactive Brokers, OANDA, FXCM, Alpaca, Dukascopy, IG, Rithmic, TradeStation, Tradier
+  - **Crypto Exchanges**: Binance, Bitfinex, Bittrex, Deribit, Kraken, Coinigy
+  - **Platform Connections**: MetaTrader 4/5, IBKR TWS
+- 📊 **361+ Algorithms** - Pre-built trading strategies and indicators
 - 🐍 **Python Bridge** - Seamless integration between C and Python engines
 - 🤖 **Machine Learning** - Torch, Keras, TensorFlow, MxNet integration
 - 📈 **Live Dashboards** - Real-time monitoring via Google Sheets
 - 🗄️ **MySQL Database** - Store and analyze historical trading data
 - 💰 **Risk Management** - Advanced position sizing and portfolio optimization
-- 🌍 **Multi-Asset Support** - Trade forex, stocks, indices, commodities, bonds, and crypto
+- 🌍 **Multi-Asset Support** - Trade forex, stocks, indices, commodities, bonds, cryptocurrencies, and derivatives (options, futures)
 - 🔄 **Backtesting Engine** - Test strategies with historical data
 - ⚙️ **Low-Latency Operations** - Async execution for maximum speed
 - 📉 **Statistical Analysis** - Volatility, correlation, and performance analytics
 - 🤖 **AI Integration** - Compatible with Keras and PyTorch models
 - 📊 **Trade Profiling** - Detailed performance metrics and visualization
 - 🔐 **Secure Configuration** - Environment-based credentials management
+
+## 🌐 Broker & Data Connections
+
+### Open Source Interface
+- Open source interface for all API, REST, and FIX connections
+- User-written custom plugins available
+
+### Data Feeds
+- **AlphaVantage** - Market data API
+- **CryptoCompare** - Cryptocurrency data
+- **IEX** - Exchange data feed
+- **DTN IQFeed** - Professional real-time data
+- **Stooq** - Historical market data
+
+### Direct Broker Connections
+- **Alpaca** - Commission-free trading
+- **Dukascopy** - Swiss forex bank
+- **Finvasia** - Indian broker
+- **FXCM** - Forex and CFD trading
+- **IG** - Multi-asset broker
+- **Interactive Brokers** - Professional trading platform
+- **Oanda** - Forex and CFD broker
+- **Rithmic** - Professional futures trading
+- **TDA/Schwab** - US stocks and options
+- **TradeStation** - Advanced trading platform
+- **Tradier** - Brokerage API
+
+### Platform Connections
+- **IBKR TWS** - Interactive Brokers Trader Workstation
+- **MT4** - MetaTrader 4 platform
+- **MT5** - MetaTrader 5 platform
+
+### Digital Coin Exchanges
+- **Binance** - World's largest crypto exchange
+- **Bitfinex** - Advanced crypto trading
+- **Bittrex** - US crypto exchange
+- **Coinigy** - Multi-exchange platform
+- **Deribit** - Crypto options and futures
+- **Kraken** - Established crypto exchange
+
+## ⚙️ Trading Engine Features
+
+### Execution & Time Frames
+- **Time Frames**: From 1 millisecond to 1 week
+- **Multi-Connection**: Simultaneous connection to multiple brokers and data feeds
+- **Account Management**: Account/asset lists with symbol mapping and individual parameters
+
+### Options & Derivatives
+- **Options/Combos**: Full support for complex strategies
+- **Greeks Calculation**: IV, Delta, Gamma, Theta, Vega, and all Greeks
+- **Multi-Leg Strategies**: Advanced options combinations
+
+### Position Management
+- **NFA/FIFO Compliance**: Regulatory compliance built-in
+- **Virtual Hedging**: For concurrent opposite positions
+- **Automated Training**: Background training and optimizing while live trading
+- **Phantom Trades**: Skip drawdown periods ("Equity Curve Trading")
+
+### High-Frequency Trading
+- **Special HFT Mode**: Optimized for high frequency trading backtests
+- **Ultra-Low Latency**: ~750ns execution latency
+
+## 🧪 Test & Optimization
+
+### Performance Benchmarks
+- **World's Fastest Optimizer**: 25 seconds for 12 parameters*
+- **World's Fastest Backtester**: 0.3 seconds for 10 years at tick level*
+
+### Bar Types
+- **Standard**: Time-based bars
+- **Range Bars**: Price-range based
+- **Renko**: Trend-following brick charts
+- **Point-and-Figure**: Classic charting
+- **User-Defined**: Custom bar types
+
+### Optimization Methods
+- **Ascent**: Hill climbing optimization
+- **Brute Force**: Exhaustive parameter search
+- **Genetic**: Evolutionary algorithms
+- **User-Defined**: Custom optimization methods
+
+### Simulation Features
+- **Precise Broker Simulation**: Fees, leverage, swaps, slippage modeling
+- **Oversampling & Detrending**: On price, signal, or trade level
+- **Individual Optimization**: Per portfolio component
+- **Capital Allocation**: MVO (Mean-Variance Optimization) or OptimalF algorithms
+- **Walk Forward Analysis**: Rolling and anchored methods
+
+*Performance benchmarks may vary based on hardware and strategy complexity
 
 ## 📦 Installation
 
@@ -250,14 +343,17 @@ gs.update_value('A1', 'Hello Trading!')
 
 ```
 z-trading/
-├── algos/                    # Trading algorithms and utilities (362 files)
-│   ├── *.c                   # C trading strategies (326 files)
+├── algos/                    # Trading algorithms and utilities (361 files)
+│   ├── c/                    # C trading strategies (326 files)
 │   │   ├── Alice*.c          # Alice strategy variations
 │   │   ├── Allocation*.c     # Portfolio allocation strategies
 │   │   ├── BB*.c             # Bollinger Band strategies
 │   │   ├── Benchmark.c       # Performance benchmarking
+│   │   ├── BTCUSD*.c         # Bitcoin trading strategies
+│   │   ├── Deribittest.c     # Deribit exchange testing
+│   │   ├── CryptoFac*.c      # Crypto factor strategies
 │   │   └── ...               # 320+ more strategies
-│   ├── *.py                  # Python utilities (36 files)
+│   ├── *.py                  # Python utilities (35 files)
 │   │   ├── OandaLib.py       # OANDA API wrapper
 │   │   ├── TraderDashboard.py    # Live trading monitor
 │   │   ├── RiskManager.py    # Position sizing & risk
@@ -347,6 +443,13 @@ Over 326 compiled C strategies including:
 - **Energy:** WTICO (Crude Oil), BCO (Brent), NATGAS (Natural Gas)
 - **Metals:** XAU (Gold), XAG (Silver), XPT (Platinum), XPD (Palladium), XCU (Copper)
 - **Agriculture:** CORN, WHEAT, SOYBN (Soybeans), SUGAR
+
+### Cryptocurrencies & Derivatives
+
+- **Major Cryptos:** BTC/USD, ETH/USD, LTC/USD, XRP/USD, BCH/USD
+- **Crypto Derivatives:** Bitcoin futures and options (via Deribit, Bitmex)
+- **Exchange Support:** Binance, Bitfinex, Bittrex, Coinigy, Deribit, Kraken
+- **Trading Pairs:** BTC/USDT, ETH/BTC, and 100+ crypto pairs
 
 ### Bonds
 
